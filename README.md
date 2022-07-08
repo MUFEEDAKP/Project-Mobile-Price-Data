@@ -1,7 +1,7 @@
 # Project-Mobile-Price-Data
 
 #### Dataset :
-- Mobile Price Data
+- [Mobile Price Data](https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification)
 
 #### Dataset Details
 - Battery_power- phone battery capacity is the amount of electricity that a fully charged battery can deliver to a stand-alone device before it is completely discharged. Simply put, this indicator can give a rough idea of how long the phone will work on its own before it is completely discharged.
@@ -13,7 +13,7 @@
 - dual_sim-has dual sim support or not.The term Dual Sim in a phone or smartphone means support for two SIM cards, one of which you can use, for example, for personal calls, and the second for work. Many modern smartphones support two SIM cards.
 
 - Fc-front camera mega pixels. The front camera is a camera that looks like a small eye, which is located on the front of the phone, in the same place where the sensors are installed (that is, at the top). Other manufacturers did not pay due attention to the characteristics of the front camera in the smartphone, as they hardly interested people. 
-- Four_g-has 4G or not. 4G is a generation of mobile communications with increased requirements. It is customary to refer to the fourth generation as promising technologies that allow data transmission at a speed of up to 100 Mbps to mobile (with high mobility) and up to 1 Gbps to fixed subscribers (with low mobility).
+- Four_g-has 4G or not. 4G is a generation of mobile communications with increased requirements. 
 
 - Int_memory-Internal Memory in Gigabytes. Internal Storage is a data storage on a smartphone where important data is found: the operating system (OS), installed       applications, photos, videos, documents and other files.
 
@@ -23,7 +23,7 @@
 
 - n_cores-Number of cores of processor.The total number of cores in a single processor in an Android smartphone is typically eight (most iPhone upgrades have six). 
 
-- pc-Primary Camera mega pixels. The number of megapixels of a camera sensor describes the image resolution that can be captured with this camera. For example,    cameras with a 12 megapixel sensor can take photos with a resolution of 4200x2800 pixels, an 8 megapixel camera allows you to take pictures with a resolution of   3264x2468 pixels.
+- pc-Primary Camera mega pixels. The number of megapixels of a camera sensor describes the image resolution that can be captured with this camera. 
 
 - px_height-Pixel Resolution Height.
 
@@ -37,8 +37,7 @@
 
 - Talk_time-longest time that a single battery charge.
 
-- Three_g-has 3G or not.Mobile communication of the third generation is built on the basis of packet data transmission. Networks of the third generation 3G operate on the border of decimeter and connected to the network. They allow you to organize videotelephony, watch movies and individual content on your mobile phone.
-
+- Three_g-has 3G or not.Mobile communication of the third generation is built on the basis of packet data transmission. 
 - Touch_screen-has touchscreen or not. A touchscreen, in fact, is a touch glass that works according to a simple scheme: touching the observer allows you to realize any functions or symptoms of exposure.
 
 - Wifi-has wifi or not. Wi-Fi is a wireless networking technology that allows devices such as computers (laptops and desktops), mobile devices (smartphones and wearables), and other equipment (printers and camcorders) to access the Internet.
@@ -78,13 +77,12 @@
 
 ### Comparison of all Models:
 
-| Model | Accuracy Percentage | 
+ | Model | Accuracy Percentage | 
 | --- | --- |
-| Logistic Regression | 65% |
-| RandomForestClassifier | 80% |
-| DecisionTreeClassifier | 79% |
-| KNN | 82% |
-| XGB | 83% |
+| Logistic Regression | 0.65 |
+| RandomForestClassifier | 1.0 |
+| SVM | 0.95 |
+| KNN | 0.93 |
 
 ## Conclusion:
 
